@@ -1,0 +1,11 @@
+package com.task.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.task.entity.RecruitingRequest;
+
+@Repository
+public interface RecruitingRequestRepository extends JpaRepository<RecruitingRequest, Long> {
+	boolean existsByUserIdAndTeamId(Long userId,Long teamId);
+}

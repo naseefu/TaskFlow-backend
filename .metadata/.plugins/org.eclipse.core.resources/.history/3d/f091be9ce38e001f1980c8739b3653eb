@@ -1,0 +1,14 @@
+package com.task.dto;
+
+public class AddTask {
+
+	private String taskname;
+	
+	private String taskdescription;
+	
+	private String jobtype;
+	
+	private String priority;
+	
+	
+}

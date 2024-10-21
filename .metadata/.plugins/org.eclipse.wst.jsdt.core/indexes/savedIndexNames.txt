@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+D:\Spring+React\Task-manager\backend\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes

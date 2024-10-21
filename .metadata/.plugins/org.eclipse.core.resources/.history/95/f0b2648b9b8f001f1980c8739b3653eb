@@ -1,0 +1,22 @@
+spring.application.name=task-manager
+
+spring.datasource.url=mysql://root:QsMuiMdCMlqtwXubWHUnhWitVDVrMwLu@mysql.railway.internal:3306/railway
+spring.datasource.username=root
+spring.datasource.password=QsMuiMdCMlqtwXubWHUnhWitVDVrMwLu
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# JPA/Hibernate settings
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+
+# Connection pool settings (HikariCP is the default connection pool)
+spring.datasource.hikari.maximum-pool-size=10
+spring.datasource.hikari.connection-timeout=30000
+spring.datasource.hikari.idle-timeout=600000
+spring.datasource.hikari.max-lifetime=1800000
+
+mail.host = smtp.gmail.com
+mail.username = xpain0070@gmail.com
+mail.password = xjvckypaqejxgetk
+mail.port = 587
